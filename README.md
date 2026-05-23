@@ -19,3 +19,9 @@ Rather than relying on manual spreadsheet filtering, I engineered a rule-based d
 - **Languages:** Python 3.11
 - **Libraries:** Pandas (Vectorized string filtering, tabular transformations)
 - **Concepts:** Data Integrity Verification, Rule-Based Decision Architecture, Relational Mapping
+
+## How to Run the Pipeline
+To test the automated logic without accessing the private raw database:
+1. Clone this repository.
+2. Ensure you have Pandas installed: `pip install pandas`
+3. Run `ArchiveDB.py` using the provided small mock data file (`sample_data.csv`) to view the isolated output execution buckets.
